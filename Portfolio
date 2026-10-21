@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main class="container">
+        <header class="perfil">
+            <img src="perfil.jpg" alt="Minha foto" class="foto">
+
+            <h1>Luis Guilherme</h1>
+            <p>Desenvolvedor Front-end no Programa Trilhas <br>
+                Técnico em Informática em formação pelo IFMA
+            </p>
+        </header>
+
+        <nav class="botoes">
+            <a href="sobremim.html">Sobre mim</a>
+            <a href="projetos.html">Veja meus projetos</a>
+            <a href="https://drive.google.com/drive/folders/1SQaGeRVh3-K2AchDYjUVPew1cOrirO9x?usp=sharing"  
+             target="_blank"
+             rel="noopener noreferrer">  Acesse os meus certificados</a>
+        </nav>
+
+        
+        <footer>
+            Feito com ♥ por Guilherme
+        </footer>
+        <div class="redes">
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetost</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+<article class="card projeto">
+    
+    <div class="conteudo-card">
+        <h3>Sistema de Cadastros de Equipe</h3>
+
+        <p>
+            Projeto desenvolvido durante meus estudos
+            de JavaScript no Programa Trilhas.
+        </p>
+
+        <a
+            href="https://SEU-USUARIO.github.io/meu-primeiro-projeto/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Ver projeto
+        </a>
+    </div>
+</article>
+
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre mim | Meu Portfólio</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <header class="perfil">
+            <img
+                src="perfil.jpg"
+                alt="Minha foto de perfil"
+                class="foto"
+            >
+
+            <h1>Luis Guilherme</h1>
+
+            <p>
+                Desenvolvedor Front-end no Programa Trilhas<br>
+                Técnico em Informática em formação pelo IFMA
+            </p>
+        </header>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+
+            <p>
+                E aí! Sou estudante de tecnologia e estou
+                desenvolvendo minhas habilidades em programação.
+                Tenho interesse em desenvolvimento web, séries, jogos... Estou sempre buscando mais conhecimento.
+                É isso aí!😝​😁​😁​
+            </p>
+
+        </section>
+
+        <nav class="botoes">
+            <a href="Portfolio.html">Voltar à página inicial</a>
+        </nav>
+
+        <footer>
+            Feito com ♥ por Guilherme
+        </footer>
+
+    </main>
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #f0f0e8;
+
+    background-image: url("fundoazul.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: min(90%, 650px);
+    margin: auto;
+    padding: 45px 0;
+    text-align: center;
+}
+
+/* PERFIL */
+.perfil {
+    margin-bottom: 30px;
+}
+
+.foto {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    border: 5px solid #477eff;
+    image-rendering: pixelated;
+    box-shadow: 5px 5px 0 #010eff;
+    margin-bottom: 15px;
+}
+
+.perfil h1,
+section h2 {
+    font-family: 'Press Start 2P', monospace;
+    line-height: 1.8;
+}
+
+.perfil h1 {
+    font-size: clamp(15px, 4vw, 23px);
+    color: #ffffff;
+    text-shadow: 3px 3px #302c57;
+    margin-bottom: 12px;
+}
+
+.perfil p {
+    color: #ffffff;
+}
+
+/* MENU */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.botoes a {
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: #4d64ff;
+    border: 3px solid #0021fb;
+    box-shadow: inset -4px -4px #010031;
+    transition: 0.2s;
+}
+
+.botoes a:hover {
+    background: #00ccff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 14px #2a00fa66;
+}
+
+/* REDES */
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.redes a {
+    color: #706c9b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #42e6d0;
+}
+
+/* SEÇÕES */
+section {
+    margin-top: 45px;
+    padding: 22px;
+    text-align: left;
+    background: #090038;
+    border: 2px solid #0d0244;
+    box-shadow: 5px 5px 0 #0a100c;
+    scroll-margin-top: 20px;
+}
+
+section h2 {
+    color: #09d6ff;
+    font-size: clamp(12px, 3vw, 17px);
+    margin-bottom: 18px;
+}
+
+section p {
+    color: #d2dbd1;
+    margin-bottom: 12px;
+}
+
+/* PROJETOS */
+.projetos body{
+     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Centro horizontal */
+    align-items: center;     /* Centro vertical */
+}
+
+
+
+
+.card {
+    padding: 18px;
+    margin-top: center;
+   text-align: center;
+    background: #1100ff;
+    border: 3px solid #8b6747;
+    border-top: 7px solid #1c0551;
+    box-shadow: 4px 4px 0 #101810;
+    width: 50%;
+  
+     
+    max-width: calc(100% - 40px);
+    padding: 25px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.card h3 {
+    color: #fbfcfb;
+    margin-bottom: 10px;
+}
+
+.card a,
+#certificados a {
+    display: inline-block;
+    padding: 10px 14px;
+    margin-top: 10px;
+    background: #1a014b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #74ef7e;
+    box-shadow: inset -3px -3px #020143;
+}
+
+.card a:hover,
+#certificados a:hover {
+    background: #344ded;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 40px;
+    color: #92a392;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-top: 30px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
